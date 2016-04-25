@@ -1,0 +1,22 @@
+body {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	font-weight: normal;
+	font-family: Arial, san-serif;
+	background-color: #849d8f
+}
+h1 {
+	font-size: 60px;
+	line-height: 60px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Arial, san-serif;
+}
+h2 {
+	font-size: 35px;
+	line-height: 41px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Arial, san-serif;
+}
