@@ -1,7 +1,7 @@
 html,
 body {
   min-width: 1200px;
-  min-height: 2416px;
+ /* min-height: 2416px;*/
   margin: 0;
   padding: 0;
 }
@@ -11,7 +11,7 @@ body {
 	color: #000000;
 	font-weight: normal;
 	font-family: Roboto, san-serif;
-	background-size: 1200px auto;
+	/*background-size: 1200px auto;*/
 	background-color: #849d8f; 
 }
 .clearfix::after {
@@ -20,9 +20,9 @@ body {
     clear: both;
 }
 .container  {
-    width: 1149px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 0 27px;
+    padding: 0 25px;
  }
 
 .main-header {
@@ -124,13 +124,13 @@ background:#666;
 }
 .stock-1 {
 	float: left;
-	min-height: 232px;
+	height: 232px;
 	width: 560px;
 	margin-right: 10px;
 }
 .stock-2 {
 	float: right;
-	min-height: 232px;
+	height: 232px;
 	width: 560px;
 	margin-right: 10px;
 }
@@ -167,7 +167,7 @@ background:#666;
 .product-tile {
 	float: left;
 	width: 277px;
-	min-height: 334px;
+	height: 334px;
 	margin-right: 10px;
 }
 .product-tile:last-child {
@@ -180,19 +180,19 @@ background:#666;
 .index-content-left {
 	float: left;
     width: 560px;
-  	min-height: 220px;
+  	height: 220px;
 }
 .index-content-right {
  	float: right;
  	width: 560px;
-    min-height: 220px;
+    height: 220px;
 }
 .seo {
 	width: 1146px;
-	min-height: 311px;
+	/*min-height: 311px;*/
 }
 .map {
-	width: 1146px;
-	height: 430px;
+	width: 100%;
+	/*height: 430px;*/
 	
 }
