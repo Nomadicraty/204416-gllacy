@@ -33,7 +33,7 @@ body {
     margin: 0 auto;
     font-size: 18px;
     line-height: 1.375;
-    font-family: "Roboto", "Arial", sans-serif; 
+    font-family: "Roboto", "Arial", sans-serif;
     color: #ffffff;
     font-weight: 500;
     background-color: #87a193;
@@ -94,7 +94,7 @@ h3,
 .container {
     width: 1150px;
     margin: 0 auto;
-    
+
 }
 
 /*Кнопки и формы*/
@@ -104,7 +104,7 @@ h3,
 }
 
 .btn-transp {
-    
+
     height: 32px;
     background-color: rgba(248, 247, 244, 0.2);
     border-radius: 15px;
@@ -130,14 +130,14 @@ h3,
     background: -webkit-linear-gradient(top, #f26843 0%, #e74a35 100%);
     background:         linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
     border-radius: 100px;
-    box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);	
+    box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
 }
 .btn-lg {
     padding: 12px 50px;
     font-size: 31px;
     line-height: 41px;
 }
-  
+
 .btn-md {
     padding: 12px 30px;
     font-size: 18px;
@@ -265,9 +265,8 @@ h3,
 .main-navigation,
 .main-navigation-list {
 	position: relative;
-    width: 375px;
+    width: 400px;
     min-height: 18px;
-    float: left;
 }
 .main-navigation-list .item {
 	display: inline;
@@ -283,8 +282,6 @@ a.item-link:hover {
 	text-decoration: none;
 }
 /*Блок выпадающего списка*/
-
-
 .dropdown:hover,
 .dropdown.current,
 .dropdown.current:hover {
@@ -292,7 +289,7 @@ a.item-link:hover {
     margin-right: 14px;
     float: left;
     margin-left: 0px;
-    margin-top: -5px;  
+    margin-top: -5px;
 }
 .dropdown:hover .dropdown-toggle,
 .dropdown.current .dropdown-toggle,
@@ -430,21 +427,19 @@ hr.small-hr {
 	margin-top: 10px;
 }
 .user-block {
-	
 	margin: 0;
     padding: 0;
     margin-bottom: 20px;
-}    
+}
 .user-block {
 	position: relative;
-    margin-left: 320px;
     display: inline-block;
-    vertical-align: baseline;
+    vertical-align: top;
     margin-top: 25px;
 }
 .user-block li{
 	display: inline-block;
-    margin-left: 10px; 
+    margin-left: 10px;
     vertical-align: top;
     font-size: 14px;
     line-height: 1.2;
@@ -701,25 +696,21 @@ a.btn-transp:hover .ico-basket {
 .work-time {
 	text-align: right;
 	font-size: 14px;
-	line-height: 1.2; 
+	line-height: 1.2;
 	color: #ffffff;
 	font-weight: 900;
 }
 .work-time .work-phone {
 	font-size: 22px;
-	line-height: 1.2; 
+	line-height: 1.2;
 	color: #ffffff;
 	font-weight: bold
 }
 
 /*Хлебные крошки*/
 .breadcrumbs {
-    display: block;
-    width: 335px;
     min-height: 18px;
-    float: left;
     margin-top: 35px;
-    margin-left: -153px;
 }
 
 .breadcrumbs-menu-item {
@@ -786,7 +777,7 @@ a.btn-transp:hover .ico-basket {
     margin: 0 auto;
     margin-bottom: 30px;
     font-weight: 800;
-    font-size: 60px; 
+    font-size: 60px;
 }
 
 .slider-controls {
@@ -893,14 +884,14 @@ a.btn-transp:hover .ico-basket {
 
 .banner-left-block a,
 .banner-right-block a {
-    
+
     margin-top: 45px;
     margin-left: 360px;
-    
+
 }
 
 .banner-right-block a {
-   
+
     margin-top: 45px;
     margin-left: 330px;
 }
@@ -955,26 +946,36 @@ a.btn-primary:hover {
     line-height: 1.5;
     font-weight: bold;
     text-shadow: 1px 1px 3px rgba(49, 50, 53, 0.5);
+   
+}
+.price,
+.kg,
+.rub {
     position: absolute;
-    top: 240px;
 }
 .price {
+    display: inline-block;
+    top: 237px;
+    left: -2px;
 	font-size: 45px;
 	font-weight: bold;
 	line-height: 1;
 	color: #ffffff;
 }
-span .kg {
+.kg {
 	font-size: 30px;
 	display: inline-block;
 	margin-left: 5px;
+    top: 241px;
+    left: 111px;
 }
 .rub {
 	display: inline-block;
     vertical-align: baseline;
-    width: 30px;
-    height: 33px;
- 	margin-left: 5px;
+    width: 32px;
+    height: 36px;
+ 	top: 243px;
+    left: 79px;
  	background: url(../img/decor/rub.svg) no-repeat ;
 }
 
@@ -987,7 +988,7 @@ span .kg {
     left: 0px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
-    z-index: 1;
+    z-index: -1;
 }
 .product-list .btn-md {
     position: absolute;
@@ -996,6 +997,9 @@ span .kg {
     left: 25px;
     padding-top: 10px;
     z-index: 5;
+}
+.product-list:hover {
+    z-index: 2;
 }
 .product-list:hover .btn-md,
 .product-list:hover .hover-block {
@@ -1014,15 +1018,6 @@ span .kg {
     margin-bottom: -76px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
-    z-index: 2;
-}
-.product-list:hover .product-list-img {
-    position: absolute;
-    margin-top: 25px;
-    z-index: 2;
-}
-.product-list:hover .product-tile-price {
-    top: 237px;
     z-index: 2;
 }
 
@@ -1173,7 +1168,7 @@ p.seo-info-4::before {
     margin-top: 35px;
     margin-right: 20px;
     padding-left: 15px;
-	padding-right: 15px;   
+	padding-right: 15px;
     border: 0;
     cursor: pointer;
 }
@@ -1198,7 +1193,7 @@ p.seo-info-4::before {
 	right: 25px;
 	top: 60px;
 	width: 300px;
-	
+
 	background: #fefefe;
 	border-radius: 10px;
 }
@@ -1218,7 +1213,7 @@ p.seo-info-4::before {
 	color: #323232;
 }
 .adress-conteiner .btn-primary {
-	
+
     margin-top: 24px;
     margin-left: 27px;
     margin-bottom: 30px;
@@ -1538,126 +1533,87 @@ h1.catalog-page {
 
 /*пагинация*/
 .pagination {
-    position: absolute;
-    widt: 211px;
-    height: 30px;
-    bottom: -540px;
-    right: 50px;
     color: #ffffff;
     font-size: 16px;
-}
-
-.pagin-item:first-child {
-    width: 13px;
-    margin-right: 14px;
+    text-align: right;
 }
 
 .pagin-item {
+    display: inline;
+}
+
+.pagin-item a,
+.pagin-item span {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 26px;
     height: 26px;
-    margin-right: 2px;
-    float: left;
-    border-radius: 50%;
-}
-
-.pagin-item span,
-.pagin-item a {
-    display: block;
-    color: #ffffff;
     font-size: 16px;
-    line-height: 1.125;
+    line-height: 26px;
+    margin-right: 2px;
+    border-radius: 50%;
+    color: #ffffff;
     text-decoration: none;
-    padding-left: 7px;
-    margin-top: 4px;
+    position: relative;
+    text-align: center;
 }
 
-.disabled {
-    background-color: #ffffff;
-    margin-bottom: 2px;
-    margin-right: 6px;
-    margin-left: -3px;
-}
-
-.disabled span,
-.disabled a {
-    display: block;
+.pagin-item.disabled span,
+.pagin-item.disabled a,
+.pagin-item.disabled:hover span,
+.pagin-item.disabled:hover a,
+.pagin-item.disabled:focus span,
+.pagin-item.disabled:focus a {
+    cursor: default;
     color: #323232;
-    padding-left: 9px;
-    margin-top: 3px;
 }
 
-.pagin-item:last-child {
-    margin-left: 5px;
-}
-
-.right-arrow,
-.left-arrow {
+.pagin-item a.left-arrow:before,
+.pagin-item span.left-arrow:before,
+.pagin-item a.right-arrow:before,
+.pagin-item span.right-arrow:before {
+    content: '';
     display: block;
     background-image: url('../img/decor/sprites-ico.png');
     background-repeat: no-repeat;
     background-position: -461px -10px;
     width: 8px;
     height: 14px;
-    margin-top: 3px;
-    margin-left: 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -4px;
+    margin-top: -7px;
 }
 
-.left-arrow {
+.pagin-item a.left-arrow:before,
+.pagin-item span.left-arrow:before {
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
     opacity: 0.2;
 }
 
-.left-arrow.disabled,
-.right-arrow.disabled {
-    background-color: inherit;
-}
-
-.pagin-item:hover {
+.pagin-item a:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-}
-
-.pagin-item:hover span,
-.pagin-item:hover a {
     color: #ffffff;
 }
 
-.pagin-item:last-child:hover,
-.pagin-item:first-child:hover {
-    background-color: rgba(255, 255, 255, 0);
-}
-
-.pagin-item.disabled:hover {
+.pagin-item.active a,
+.pagin-item.active span {
     background-color: #ffffff;
     cursor: default;
 }
 
-.pagin-item.disabled:hover span,
-.pagin-item.disabled:hover a {
+.pagin-item.active span,
+.pagin-item.active a,
+.pagin-item.active:hover span,
+.pagin-item.active:hover a,
+.pagin-item.active:focus span,
+.pagin-item.active:focus a {
     color: #323232;
 }
 
-.pagin-item:active {
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.pagin-item:first-child:active,
-.pagin-item:last-child:active {
-    background-color: rgba(255, 255, 255, 0);
-}
-
-.pagin-item:active span,
-.pagin-item:active a,
-.pagin-item:first-child:active span,
-.pagin-item:first-child:active a,
-.pagin-item:last-child:active span,
-.pagin-item:last-child:active a {
-    color: #323232;
-}
 hr.big-HR {
     margin: 0;
     width: 100%;
@@ -1666,7 +1622,7 @@ hr.big-HR {
 .filter-form {
     width: 910px;
     min-height: 140px;
-    
+
 }
 .main {
     width: 1150px;
@@ -1676,7 +1632,7 @@ hr.big-HR {
     width: 180px;
     height: 70px;
     float: left;
-    
+
 }
 
 .filter-form fieldset {
@@ -1744,7 +1700,7 @@ hr.big-HR {
     outline: none;
 }
 
-/*диапазон цен - лекционная реализация*/
+/*диапазон цен */
 .range-item {
     width: 236px;
     margin-left: -6px;
@@ -1923,7 +1879,7 @@ input[type="radio"]:disabled + .radio > span {
     height: 10px;
     margin-top: 4px;
     margin-left: 3px;
-    background-image: url(../img/whiteOk.png);
+    background-image: url(../img/decor/white-Ok.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
