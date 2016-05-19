@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
-* Студент: [Мария Бедрицкая](https://up.htmlacademy.ru/htmlcss/13/user/204416).
-* Наставник: [Александр Аверьянов](https://htmlacademy.ru/profile/id208268).
+* Студент: [Дмитрий Болотин](https://up.htmlacademy.ru/htmlcss/13/user/124830).
+* Наставник: [Александр Аверьянов] (https://htmlacademy.ru/profile/id208268).
 
 ---
 
@@ -18,7 +18,7 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/204416-gllacy) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/124830-gllacy) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391926/4aaa72b0-bdfc-11e5-9324-e0597e8e0084.jpg">
 
